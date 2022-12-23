@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-23T09:46:25.941Z" agent="5.0 (Windows)" version="20.7.4" etag="RT3mN1Zes0h2ZcTy94Nt" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-23T10:14:49.468Z" agent="5.0 (Windows)" version="20.7.4" etag="_90djWiUA1oRfqrSFg_Q" type="github">
   <diagram id="ybnF1-MVuXjFzrns_gzO" name="Page-1">
     <mxGraphModel dx="2021" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -96,6 +96,12 @@
         </mxCell>
         <mxCell id="CRsnM4I-JbtB1Yq5NlvE-31" value="&lt;div align=&quot;left&quot;&gt;Client (&lt;u&gt;cl_num&lt;/u&gt;, cl_nom, cl_prenom, cl_adresse, cl_cp, cl_ville)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;imprimante (&lt;u&gt;imp_num&lt;/u&gt;, imp_marque, imp_modele, imp_date, #cl_num)&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="90" y="520" width="470" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CRsnM4I-JbtB1Yq5NlvE-32" value="technicien (&lt;u&gt;tech_matricule&lt;/u&gt;, tech_nom, tech_prenom)" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="560" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CRsnM4I-JbtB1Yq5NlvE-33" value="intervention (int_id, int_date_heure, #tech_matricule, #imp_num)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="590" width="360" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
