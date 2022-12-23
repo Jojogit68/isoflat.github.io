@@ -1,23 +1,29 @@
-<mxfile host="app.diagrams.net" modified="2022-12-23T12:09:12.554Z" agent="5.0 (Windows)" version="20.7.4" etag="C9YyR2pHVyRkmZSdY8tE" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-23T12:47:15.565Z" agent="5.0 (Windows)" version="20.7.4" etag="4RzCG0FrSwNLzB92x8wI" type="github">
   <diagram id="p_BGwyCHmVhsH4xGU52v" name="Page-1">
-    <mxGraphModel dx="1194" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="658" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="_CBYcLnBkWRyQDIWY4Gg-1" value="disque" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="60" y="50" width="60" height="30" as="geometry" />
+        <mxCell id="_CBYcLnBkWRyQDIWY4Gg-9" value="disque" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="50" width="140" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="_CBYcLnBkWRyQDIWY4Gg-2" value="titre" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="50" y="120" width="60" height="30" as="geometry" />
+        <mxCell id="_CBYcLnBkWRyQDIWY4Gg-10" value="&lt;u&gt;disk_id&lt;/u&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_CBYcLnBkWRyQDIWY4Gg-9">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_CBYcLnBkWRyQDIWY4Gg-3" value="artiste" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="170" y="120" width="60" height="30" as="geometry" />
+        <mxCell id="_CBYcLnBkWRyQDIWY4Gg-11" value="disk_titre" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_CBYcLnBkWRyQDIWY4Gg-9">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_CBYcLnBkWRyQDIWY4Gg-4" value="label" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="300" y="130" width="60" height="30" as="geometry" />
+        <mxCell id="_CBYcLnBkWRyQDIWY4Gg-12" value="disk_artiste" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_CBYcLnBkWRyQDIWY4Gg-9">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_CBYcLnBkWRyQDIWY4Gg-5" value="annee" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="330" y="70" width="60" height="30" as="geometry" />
+        <mxCell id="_CBYcLnBkWRyQDIWY4Gg-13" value="&#xa;disk_label&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_CBYcLnBkWRyQDIWY4Gg-9">
+          <mxGeometry y="120" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_CBYcLnBkWRyQDIWY4Gg-14" value="&#xa;disk_annee&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_CBYcLnBkWRyQDIWY4Gg-9">
+          <mxGeometry y="150" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_CBYcLnBkWRyQDIWY4Gg-15" value="&lt;div&gt;disque (&lt;u&gt;disk_id&lt;/u&gt;, disk_titre, disk_artiste, disk_label, disk_annee)&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="270" width="570" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
